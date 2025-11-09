@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-public class S3_LearnSynchronization3 {
+//explicit wait
+public class S03_LearnSynchronization3 {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
