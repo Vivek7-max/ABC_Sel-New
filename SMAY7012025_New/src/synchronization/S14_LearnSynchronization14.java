@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class S1_LearnSynchronization14 {
+public class S14_LearnSynchronization14 {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
@@ -24,10 +24,6 @@ public class S1_LearnSynchronization14 {
 			System.out.println("FAIL:: Expected text is not present in the source code");
 		}
 		
-		driver.quit();
-		
-		
-		
+		driver.quit();	
 	}
-
 }
